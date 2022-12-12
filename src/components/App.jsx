@@ -1,11 +1,11 @@
 import { Component } from 'react';
 import { toast, Toaster } from 'react-hot-toast';
-import { searchImages } from '../src/components/Api/api';
+import { searchImages } from './Api/api';
 import { Loader } from 'components/Loader/Loader';
 import { Section } from 'components/Section/Section';
-import { SearchBar } from 'components/SearchBar/SearchBar';
 import { ImageGallery } from 'components/ImageGallery/ImageGallery';
 import { Button } from 'components/Button/Button';
+import { SearchBar } from './SearchBar/SearchBar';
 
 export class App extends Component {
   state = {
