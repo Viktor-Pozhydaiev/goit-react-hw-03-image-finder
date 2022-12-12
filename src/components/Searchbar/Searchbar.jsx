@@ -1,7 +1,7 @@
 import { PropTypes } from 'prop-types';
 import { Component } from 'react';
 import { toast } from 'react-hot-toast';
-import css from '../SearchBar/SearchBar.module.css';
+import css from '../Searchbar/SearchBar.module.css';
 
 export class SearchBar extends Component {
   static propTypes = {
