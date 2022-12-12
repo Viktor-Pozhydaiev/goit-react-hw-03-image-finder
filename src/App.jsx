@@ -1,11 +1,11 @@
 import { Component } from 'react';
 import { toast, Toaster } from 'react-hot-toast';
-import { ImageGallery } from '../src/components/ImageGallery/ImageGallery';
-import { SearchBar } from '../src/components/SearchBar/SearchBar';
 import { searchImages } from '../src/components/Api/api';
-import { Button } from '../src/components/Button/Button';
-import { Section } from '../src/components/Section/Section';
-import { Loader } from '../src/components/Loader/Loader';
+import { Loader } from 'components/Loader/Loader';
+import { Section } from 'components/Section/Section';
+import { SearchBar } from 'components/SearchBar/SearchBar';
+import { ImageGallery } from 'components/ImageGallery/ImageGallery';
+import { Button } from 'components/Button/Button';
 
 export class App extends Component {
   state = {
