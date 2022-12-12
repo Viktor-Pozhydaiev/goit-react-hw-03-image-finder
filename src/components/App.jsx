@@ -5,7 +5,7 @@ import { Loader } from './Loader/Loader';
 import { Section } from './Section/Section';
 import { ImageGallery } from './ImageGallery/ImageGallery';
 import { Button } from './Button/Button';
-import { SearchBar } from './SearchBar/SearchBar';
+import { SearchBar } from './SearchBar/SearchBar.jsx';
 
 export class App extends Component {
   state = {
