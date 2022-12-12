@@ -3,7 +3,7 @@ import { toast, Toaster } from 'react-hot-toast';
 import { searchImages } from '../src/components/Api/api';
 import { Loader } from 'components/Loader/Loader';
 import { Section } from 'components/Section/Section';
-import { SearchBar } from 'components/SearchBar/SearchBar.jsx';
+import { SearchBar } from 'components/SearchBar/SearchBar';
 import { ImageGallery } from 'components/ImageGallery/ImageGallery';
 import { Button } from 'components/Button/Button';
 
