@@ -48,7 +48,7 @@ export class App extends Component {
   }
 
   handelFormSubmit = query => {
-    this.setState({ query, pageNum: 1, images: [] });
+    this.setState({ query, pageNumber: 1, images: [] });
   };
   addPage = () => {
     this.setState(prevState => ({
